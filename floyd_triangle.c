@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<ncurses.h>
+i=0;
+j=0;
+number=1;
+int main()
+{
+  for(i=1;i<=10;i++)
+  {
+    for(j=0;j<i;j++)
+    {
+      if(number<=10)
+      {
+    printf("%d",number);
+    number++;
+  }
+    else
+    {
+      number=0;
+      printf("%d",number);
+      number++;
+    }
+    }
+    printf("\n");
+  }
+}
